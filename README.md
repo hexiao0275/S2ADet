@@ -6,19 +6,19 @@ We have released our dataset proposed in paper 'Object Detection in Hyperspectra
 
 ### Overview
 <div align="left">
-<img src="https://github.com/hexiao-cs/S2ANet/blob/main/backbone.png" width="800">
+<img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/backbone.png" width="800">
 </div>
 
 ### Visualization of Detection
 
 <div align="left">
-<img src="https://github.com/hexiao-cs/S2ANet/blob/main/showtime.png" width="800">
+<img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/showtime.png" width="800">
 </div>
 
 ### Visualization of HOD3K Dataset
  
 <div align="left">
-<img src="https://github.com/hexiao-cs/S2ANet/blob/main/show.png" width="800">
+<img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/show.png" width="800">
 </div>
 
 
