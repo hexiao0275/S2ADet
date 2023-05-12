@@ -9,16 +9,6 @@ Python>=3.6.0 is required with all requirements.txt installed including PyTorch>
 $ pip install -r requirements.txt
 ```
 
-### Overview
-<div align="left">
-<img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/backbone.png" width="800">
-</div>
-
-### Visualization of Detection
-
-<div align="left">
-<img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/showtime.png" width="800">
-</div>
 
 # HSI-Object-Detection
 
@@ -65,6 +55,16 @@ test: ``` python test.py```
 
 detect: ``` python detect_twostream.py```
 
+### S2ADet Overview
+<div align="left">
+<img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/backbone.png" width="800">
+</div>
+
+### Visualization of Detection
+
+<div align="left">
+<img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/showtime.png" width="800">
+</div>
 
 #### References
 
