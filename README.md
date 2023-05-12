@@ -4,21 +4,21 @@ We have released our dataset proposed in paper 'Object Detection in Hyperspectra
 
 ## Abstract
 
-### Demo
-**Night Scene**
-<div align="left">
-<img src="https://github.com/DocF/multispectral-object-detection/blob/main/video/demo1.gif" width="600">
-</div>
-
-**Day Scene**
-<div align="left">
-<img src="https://github.com/DocF/multispectral-object-detection/blob/main/video/demo.gif" width="600">
-</div>
-
- 
 ### Overview
 <div align="left">
-<img src="https://github.com/DocF/multispectral-object-detection/blob/main/cft.png" width="800">
+<img src="https://github.com/hexiao-cs/S2ANet/blob/main/backbone.pdf" width="800">
+</div>
+
+### Visualization of Detection
+
+<div align="left">
+<img src="https://github.com/hexiao-cs/S2ANet/blob/main/showtime.pdf" width="800">
+</div>
+
+### Visualization of HOD3K Dataset
+ 
+<div align="left">
+<img src="https://github.com/hexiao-cs/S2ANet/blob/main/show.pdf" width="800">
 </div>
 
 
@@ -79,7 +79,4 @@ detect: ``` python detect_twostream.py```
 
 https://github.com/ultralytics/yolov5
 
-  
-# S2ANet
-# CAL-Dronevehicle
-# CAL-Dronevehicle
+
