@@ -28,7 +28,7 @@ Contains the raw hyperspectral train:
 
 
 ### HSI-1
-[download](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU))
+[download](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU)
 
 ### Lable
 
