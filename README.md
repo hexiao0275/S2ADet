@@ -1,8 +1,22 @@
 # Multispectral-Object-Detection
 
-We have released our dataset proposed in paper 'Object Detection in Hyperspectral Images'. Raw hyperspectral images and processed data (96-channel) can be found at [baidu cloud, password: 6shr], [Onedrive].
+We have released our dataset proposed in paper '. Raw hyperspectral images and processed data can be found at [baidu cloud, password: 6shr], [Onedrive].
 
-## Abstract
+We provide processed spectral aggregation information and spatial aggregation information in the data set.
+
+If you were to reprocess hyperspectral data, the original hyperspectral data needs to be processed before they can use, reference: https://www.hsitracking.com/.
+
+## Installation 
+Python>=3.6.0 is required with all requirements.txt installed including PyTorch>=1.7 (The same as yolov5 https://github.com/ultralytics/yolov5 ).
+
+#### Clone the repo
+    git clone https://github.com/DocF/multispectral-object-detection
+  
+#### Install requirements
+ ```bash
+$ pip install -r requirements.txt
+```
+
 
 ### Overview
 <div align="left">
@@ -21,17 +35,6 @@ We have released our dataset proposed in paper 'Object Detection in Hyperspectra
 <img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/show.png" width="800">
 </div>
 
-
-## Installation 
-Python>=3.6.0 is required with all requirements.txt installed including PyTorch>=1.7 (The same as yolov5 https://github.com/ultralytics/yolov5 ).
-
-#### Clone the repo
-    git clone https://github.com/DocF/multispectral-object-detection
-  
-#### Install requirements
- ```bash
-$ pip install -r requirements.txt
-```
 
 ## Dataset
 -[HOD3K]  [download](http://shorturl.at/ahAY4) 
