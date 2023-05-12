@@ -17,12 +17,14 @@ We provide processed spectral aggregation information and spatial aggregation in
 If you were to reprocess hyperspectral data, the original hyperspectral data needs to be processed before they can use, reference: https://www.hsitracking.com/.
 
 ## Dataset
-###  Contains the processed hyperspectral dataset and the raw hyperspectral val and test detaset
--[HOD3K]  [download](http://shorturl.at/ahAY4)
-### Contains the raw hyperspectral train
--[HOD3K]  [download](http://shorturl.at/ahAY4) 
+### HOD3K
+Contains the processed hyperspectral dataset and the raw hyperspectral val and test detaset:
+-[HOD3K]  [download](https://pan.baidu.com/s/1ga-YqLqTqVxTbnHHjch82g) password:qugy
+Contains the raw hyperspectral train:
+-[HOD3K]  [download](https://pan.baidu.com/s/16ofE5ljzvNCFU_NO43xE6Q) password:gvbe
 
--[HSI-1]  [download]([https://github.com/bupt-ai-cz/LLVIP](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU))
+### HSI-1
+[download]([https://github.com/bupt-ai-cz/LLVIP](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU))
 
 You need to convert all annotations to YOLOv5 format.
 
