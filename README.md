@@ -28,9 +28,11 @@ Contains the raw hyperspectral train:
 
 
 ### HSI-1
-[download]([https://github.com/bupt-ai-cz/LLVIP](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU))
+[download](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU))
 
-You need to convert all annotations to YOLOv5 format.
+### Lable
+
+In the HSI-1 dataset, you need to convert all annotations to YOLOv5 format.
 
 Refer: https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 
