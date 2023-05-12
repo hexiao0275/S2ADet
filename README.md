@@ -1,10 +1,4 @@
-# Multispectral-Object-Detection
 
-We have released our dataset proposed in paper '. Raw hyperspectral images and processed data can be found at [baidu cloud, password: 6shr], [Onedrive].
-
-We provide processed spectral aggregation information and spatial aggregation information in the data set.
-
-If you were to reprocess hyperspectral data, the original hyperspectral data needs to be processed before they can use, reference: https://www.hsitracking.com/.
 
 ## Installation 
 Python>=3.6.0 is required with all requirements.txt installed including PyTorch>=1.7 (The same as yolov5 https://github.com/ultralytics/yolov5 ).
@@ -17,7 +11,6 @@ Python>=3.6.0 is required with all requirements.txt installed including PyTorch>
 $ pip install -r requirements.txt
 ```
 
-
 ### Overview
 <div align="left">
 <img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/backbone.png" width="800">
@@ -29,24 +22,29 @@ $ pip install -r requirements.txt
 <img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/showtime.png" width="800">
 </div>
 
+# HSI-Object-Detection
+
+We provide processed spectral aggregation information and spatial aggregation information in the data set.
+
+If you were to reprocess hyperspectral data, the original hyperspectral data needs to be processed before they can use, reference: https://www.hsitracking.com/.
+
+## Dataset
+###  Contains the processed hyperspectral dataset and the raw hyperspectral val and test detaset
+-[HOD3K]  [download](http://shorturl.at/ahAY4)
+### Contains the raw hyperspectral train
+-[HOD3K]  [download](http://shorturl.at/ahAY4) 
+
+-[HSI-1]  [download]([https://github.com/bupt-ai-cz/LLVIP](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU))
+
+You need to convert all annotations to YOLOv5 format.
+
+Refer: https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
+
 ### Visualization of HOD3K Dataset
  
 <div align="left">
 <img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/show.png" width="800">
 </div>
-
-
-## Dataset
--[HOD3K]  [download](http://shorturl.at/ahAY4) 
-
--[HSI-1]  [download](https://github.com/bupt-ai-cz/LLVIP)
-
--[VEDAI]  [download](https://downloads.greyc.fr/vedai/)
-
-
-You need to convert all annotations to YOLOv5 format.
-
-Refer: https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 
 ## Run
 #### Download the pretrained weights
@@ -61,14 +59,6 @@ yolov5 weights (pre-train)
 -[yolov5x] [google drive](https://drive.google.com/file/d/1e9xiQImx84KFQ_a7XXpn608I3rhRmKEn/view?usp=sharing)
 
 
-
-#### Change the data cfg
-some example in data/multispectral/
-
-#### Change the model cfg
-some example in models/transformer/
-
-note!!!   we used xxxx_transfomerx3_dataset.yaml in our paper.
 
 ### Train Test and Detect
 train: ``` python train.py```
