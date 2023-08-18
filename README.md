@@ -7,6 +7,10 @@ This repo is the official implementation for **Object Detection in Hyperspectral
 
 [2023.08.18] Our paper is ready!
 
+## Introduction
+
+**Abstract.** Deep learning-based hyperspectral image (HSI) classification and object detection techniques have gained significant attention due to their vital role in image content analysis, interpretation, and broader HSI applications. However, current hyperspectral object detection approaches predominantly emphasize spectral or spatial information, overlooking the valuable complementary relationship between these two aspects. In this study, we present a novel Spectral-Spatial Aggregation (S2ADet) object detector that effectively harnesses the rich spectral and spatial complementary information inherent in the hyperspectral image. S2ADet comprises a hyperspectral information decoupling (HID) module, a two-stream feature extraction network, and a one-stage detection head. The HID module processes hyperspectral data by aggregating spectral and spatial information via band selection and principal components analysis, consequently reducing redundancy. Based on the acquired spectral and spatial aggregation information, we propose a feature aggregation two-stream network for interacting spectral-spatial features. Furthermore, to address the limitations of existing databases, we annotate an extensive dataset, designated as HOD3K, containing 3,242 hyperspectral images captured across diverse real-world scenes and encompassing three object classes. These images possess a resolution of 512$\times$256 pixels and cover 16 bands ranging from 470 nm to 620 nm. Comprehensive experiments on two datasets demonstrate that S2ADet surpasses existing state-of-the-art methods, achieving robust and reliable results.
+
 
 ## Installation 
 Python>=3.6.0 is required with all requirements.txt installed including PyTorch>=1.7 (The same as yolov5 https://github.com/ultralytics/yolov5 ).
@@ -84,8 +88,6 @@ detect: ``` python detect_twostream.py```
 <img src="https://github.com/hexiao-cs/S2ANet/blob/main/img_readme/showtime.png" width="800">
 </div>
 
-#### References
+## Acknowledgment
 
-https://github.com/ultralytics/yolov5
-
-
+Our codes are mainly based on [yolov5]([https://github.com/zczcwh/PoseFormer](https://github.com/ultralytics/yolov5)). Many thanks to the authors!
