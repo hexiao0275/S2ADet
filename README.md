@@ -1,4 +1,17 @@
 
+# Object Detection in Hyperspectral Image via Unified Spectral-Spatial Feature Aggregation
+
+This repo is the official implementation for **Object Detection in Hyperspectral Image via Unified Spectral-Spatial Feature Aggregation**. The paper has been accepted to **TGRS 2023**.
+
+[arXiv](https://arxiv.org/pdf/2303.17472.pdf) / [project page](https://qitaozhao.github.io/PoseFormerV2) / [video](https://www.youtube.com/watch?v=2xVNrGpGldM)
+
+| ![dance_1](images/demo_1.gif) | ![dance_2](images/demo_2.gif) |
+| ----------------------------- | ----------------------------- |
+
+### News
+
+[2023.08.18] Our paper is ready!
+
 
 ## Installation 
 Python>=3.6.0 is required with all requirements.txt installed including PyTorch>=1.7 (The same as yolov5 https://github.com/ultralytics/yolov5 ).
