@@ -1,7 +1,7 @@
 
 # Object Detection in Hyperspectral Image via Unified Spectral-Spatial Feature Aggregation
 
-This repo is the official implementation for **Object Detection in Hyperspectral Image via Unified Spectral-Spatial Feature Aggregation**. The paper has been accepted to **TGRS 2023**.
+This repo is the official implementation for **<Object Detection in Hyperspectral Image via Unified Spectral-Spatial Feature Aggregation>**. The paper has been accepted to **TGRS 2023**.
 
 ### News
 
