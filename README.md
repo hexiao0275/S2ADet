@@ -90,4 +90,4 @@ detect: ``` python detect_twostream.py```
 
 ## Acknowledgment
 
-Our codes are mainly based on [yolov5]([https://github.com/zczcwh/PoseFormer](https://github.com/ultralytics/yolov5)). Many thanks to the authors!
+Our codes are mainly based on [yolov5]([https://github.com/ultralytics/yolov5]). Many thanks to the authors!
