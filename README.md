@@ -90,7 +90,7 @@ detect: ``` python detect_twostream.py```
 
 ## Acknowledgment
 
-Our codes are mainly based on [yolov5](https://github.com/ultralytics/yolov5). Many thanks to the authors!
+Our codes are mainly based on [yolov5](https://github.com/ultralytics/yolov5) and [DocF](https://github.com/DocF/multispectral-object-detection). Many thanks to the authors!
 
 
 
