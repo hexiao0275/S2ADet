@@ -18,13 +18,15 @@ If you were to reprocess hyperspectral data, the original hyperspectral data nee
 
 ## Dataset
 ### HOD3K
-Contains the processed hyperspectral dataset and the raw hyperspectral val and test dataset:
-
--[HOD3K]  [download](https://pan.baidu.com/s/1ga-YqLqTqVxTbnHHjch82g) password:qugy
 
 Contains the raw hyperspectral train:
 
 -[HOD3K]  [download](https://pan.baidu.com/s/16ofE5ljzvNCFU_NO43xE6Q) password:gvbe
+
+Contains the processed hyperspectral dataset and the raw hyperspectral val and test dataset:
+
+-[HOD3K]  [download](https://pan.baidu.com/s/1ga-YqLqTqVxTbnHHjch82g) password:qugy
+
 
 
 ### HSI-1
