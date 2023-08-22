@@ -31,6 +31,7 @@ If you were to reprocess hyperspectral data, the original hyperspectral data nee
 ## Dataset
 ### HOD3K
 
+
 Contains the raw hyperspectral train:
 
 -[HOD3K]  [download](https://pan.baidu.com/s/16ofE5ljzvNCFU_NO43xE6Q) password:gvbe
@@ -39,6 +40,8 @@ Contains the processed hyperspectral dataset and the raw hyperspectral val and t
 
 -[HOD3K]  [download](https://pan.baidu.com/s/1ga-YqLqTqVxTbnHHjch82g) password:qugy
 
+
+We used [hsitracking](https://www.hsitracking.com) provided for annotation. Their work (Material based object tracking in hyperspectral videos) was published in IEEE TIP, many thanks for their awesome work.
 
 
 ### HSI-1
@@ -91,6 +94,31 @@ detect: ``` python detect_twostream.py```
 ## Acknowledgment
 
 Our codes are mainly based on [yolov5](https://github.com/ultralytics/yolov5) and [DocF](https://github.com/DocF/multispectral-object-detection). Many thanks to the authors!
+
+
+## Citation
+
+If this is useful for your research, please consider cite.
+
+```
+@article{xiong2020material,
+  title={Material based object tracking in hyperspectral videos},
+  author={Xiong, Fengchao and Zhou, Jun and Qian, Yuntao},
+  journal={IEEE Transactions on Image Processing},
+  volume={29},
+  pages={3719--3733},
+  year={2020},
+  publisher={IEEE}
+}
+
+@article{he2023object,
+  title={Object Detection in Hyperspectral Image via Unified Spectral-Spatial Feature Aggregation},
+  author={He, Xiao and Tang, Chang and Liu, Xinwang and Zhang, Wei and Sun, Kun and Xu, Jiangfeng},
+  journal={arXiv preprint arXiv:2306.08370},
+  year={2023}
+}
+
+```
 
 
 
