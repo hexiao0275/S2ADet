@@ -5,6 +5,7 @@ This repo is the official implementation for **Object Detection in Hyperspectral
 
 ### News
 [2023.08.28] **Code** and **Dataset** released!
+
 [2023.08.18] Our paper is ready!
 
 ## Introduction
