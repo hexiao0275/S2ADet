@@ -61,7 +61,13 @@ Refer: https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
 </div>
 
 ## Run
+
+#### Download the pretrained weights of S2ANet
+
+Soon coming
+
 #### Download the pretrained weights
+
 yolov5 weights (pre-train) 
 
 -[yolov5s] [google drive](https://drive.google.com/file/d/1UGAsaOvV7jVrk0RvFVYL6Vq0K7NQLD8H/view?usp=sharing)
