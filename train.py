@@ -916,7 +916,7 @@ def train_rgb_ir(hyp, opt, device, tb_writer=None):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', type=str, default='./yolo_weight/yolov5l.pt', help='initial weights path')
-    parser.add_argument('--cfg', type=str, default='./models/hsi/yolov5m_fusion_transformerx3_hsi.yaml', help='model.yaml path')
+    parser.add_argument('--cfg', type=str, default='./models/hsi/yolov5l_fusion_transformerx3_hsi.yaml', help='model.yaml path')
     parser.add_argument('--data', type=str, default='./data/hsi/hsi_twostream.yaml', help='data.yaml path')
     parser.add_argument('--hyp', type=str, default='data/hyp.finetune.yaml', help='hyperparameters path')
     parser.add_argument('--epochs', type=int, default=100)
