@@ -48,6 +48,11 @@ We used [hsitracking](https://www.hsitracking.com) provided for annotation. Thei
 ### HSI-1
 [download](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU)
 
+Contains the processed HSI-1 dataset:
+
+-[HSI-1]  [download](https://pan.baidu.com/s/1ga-YqLqTqVxTbnHHjch82g) password:qugy
+
+
 ### Lable
 
 In the HSI-1 dataset, you need to convert all annotations to YOLOv5 format.
