@@ -22,7 +22,6 @@ Python>=3.6.0 is required with all requirements.txt installed including PyTorch>
 $ pip install -r requirements.txt
 ```
 
-
 # HSI-Object-Detection
 
 We provide processed spectral aggregation information and spatial aggregation information in the data set.
@@ -50,7 +49,7 @@ We used [hsitracking](https://www.hsitracking.com) provided for annotation. Thei
 
 Contains the processed HSI-1 dataset:
 
--[HSI-1]  [download](https://pan.baidu.com/s/1ga-YqLqTqVxTbnHHjch82g) password:qugy
+-[HSI-1]  [download](https://pan.baidu.com/s/1BuR9FCkoZEj1Czd4XVFKAA) password:my1z
 
 
 ### Lable
